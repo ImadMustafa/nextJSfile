@@ -9,7 +9,7 @@ const Navbar = ({Logoname}) => {
             <div className="flex">
                 <Link className="text-white mr-3" href="/">Home</Link>
                 <Link className="text-white mr-3" href="/about">About</Link>
-                <Link className="text-white mr-3" href="/compTest">Information</Link>
+                <Link className="text-white mr-3" href="/information">Information</Link>
             </div>
         </nav>
      );
