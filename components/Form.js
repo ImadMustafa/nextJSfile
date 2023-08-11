@@ -2,7 +2,7 @@ import React from 'react';
 
 const Form = ({formTitle}) => {
     return ( 
-        <div className="flex justify-start ml-6">
+        <div className="flex justify-center ml-6">
             <div className="form my-8 bg-rose-100 rounded-lg p-6">
                 <h2 className="padder mb-5 text-xl font-bold">{formTitle}</h2>
                 Email: <input type="text" placeholder="Your email" className="padder bg-white border-2 border-white rounded-lg p-2 mb-3" />
