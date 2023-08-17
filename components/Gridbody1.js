@@ -6,7 +6,7 @@ const Gridbody1 = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className="mb-8 md:mb-0 md:mx-10 ml-10 mr-10">
           <img src={item.imageUrl} className="flex justify-center h-60" alt="Image" />
-          <p className="mt-3 md:mt-7">{item.text}</p>
+          <p className="mt-3 md:mt-7 sm:text-2xl text-xl">{item.text}</p>
         </div>
       ))}
     </div>
